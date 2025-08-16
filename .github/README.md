@@ -2,80 +2,6 @@
 
 [![GitHub Extra Pins](https://github-readme-stats.vercel.app/api/pin/?locale=ja&show_owner=true&theme=graywhite&username=n138-kz&repo=linuc3-300)](https://github.com/n138-kz/linuc3-300)
 
-## Quick setup
-
-<details>
-
-### if you’ve done this kind of thing before
-
-```sh
-git clone https://github.com/n138-kz/linuc3-300.git
-```
-
-```sh
-git clone git@github.com:n138-kz/linuc3-300.git
-```
-
-### …or create a new repository on the command line
-
-```sh
-touch README.md
-git init
-git add README.md
-git commit -m init
-git branch -M main
-git remote add origin git@github.com:n138-kz/linuc3-300.git
-git branch --set-upstream-to=origin/main main
-git config pull.rebase false
-git fetch
-git pull
-git merge --allow-unrelated-histories origin/main
-git push -u origin main
-```
-
-- [git merge --allow-unrelated-histories origin/main](https://qiita.com/mei28/items/85bc881ac1f26332ac15)
-
-### …or push an existing repository from the command line
-
-```sh
-git remote add origin git@github.com:n138-kz/linuc3-300.git
-git branch -M main
-git push -u origin main
-```
-
-### pull an another existing repository from the command line
-
-```sh
-git config pull.rebase false
-git branch -r
-git pull origin {remote-repos-name}:{local-repos-name}
-git checkout {local-repos-name}
-git branch --set-upstream-to=origin/{remote-repos-name} {local-repos-name}
-```
-
-</details>
-
-## github repository initial setup
-
-1. "Actions secrets and variables" > "Repository secrets" 移動し、`DISCORD_WEBHOOK_URL` を設定  
-  値は Discord webhook url を設定
-
-```
-DISCORD_WEBHOOK_URL
-```
-
-## Github RestAPI
-
-```http
-GET https://api.github.com/repos/n138-kz/linuc3-300
-```
-
-<details>
-
-  [n138-kz/linuc3-300](https://api.github.com/repos/n138-kz/linuc3-300) (Public repos only)
-  
-</details>
-
 ## Repos Info
 
 <div align="center">
@@ -115,9 +41,7 @@ GET https://api.github.com/repos/n138-kz/linuc3-300
 
 ## Refs
 
-<!--
 - [![](https://www.google.com/s2/favicons?size=64&domain=https://github.com)linuc3-300](https://github.com/n138-kz/linuc3-300/)
--->
 
 ## License
 
