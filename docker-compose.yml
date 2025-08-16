@@ -1,0 +1,9 @@
+name: linuc3
+services:
+    linuc3_samba3:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        pull_policy: build
+        restart: always
+
